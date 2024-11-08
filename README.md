@@ -41,25 +41,27 @@ tmux -V
 
 ## 快捷鍵表格
 
-| 功能描述                    | 通用 (Linux)          | macOS                         | Windows                        |
-|-----------------------------|-----------------------|-------------------------------|--------------------------------|
-| 設定新的前綴鍵 (Prefix)     | `Ctrl-a`             | `Cmd-a`                       | `Ctrl-a`                       |
-| 重新載入配置文件            | `prefix + r`         | `Cmd-r`                       | `Ctrl-r`                       |
-| 切換至下一個窗口            | `M-l`                | `Opt-l`                       | `Alt-l`                        |
-| 切換至上一個窗口            | `M-h`                | `Opt-h`                       | `Alt-h`                        |
-| 新建窗口                    | `M-j`                | `Opt-j`                       | `Alt-j`                        |
-| 確認後關閉當前窗口          | `M-k`                | `Opt-k`                       | `Alt-k`                        |
-| 選擇第一個窗口 (0)          | `` ` ``              | `` ` ``                       | `` ` ``                        |
-| 確認後關閉當前窗格          | `x`                  | `Cmd-x`                       | `Ctrl-x`                       |
-| 在當前窗格下方分割新窗格    | `prefix + -`         | `Cmd -`                       | `Ctrl -`                       |
-| 在當前窗格右側分割新窗格    | `prefix + |`         | `Cmd + |`                     | `Ctrl + |`                     |
-| 水平分割窗口                | `prefix + -`         | `Cmd + -`                     | `Ctrl + -`                     |
-| 垂直分割窗口                | `prefix + |`         | `Cmd + |`                     | `Ctrl + |`                     |
-| 向左調整窗格大小            | `S-Left`             | `Shift + Left Arrow`          | `Shift + Left Arrow`           |
-| 向右調整窗格大小            | `S-Right`            | `Shift + Right Arrow`         | `Shift + Right Arrow`          |
-| 向下調整窗格大小            | `S-Down`             | `Shift + Down Arrow`          | `Shift + Down Arrow`           |
-| 向上調整窗格大小            | `S-Up`               | `Shift + Up Arrow`            | `Shift + Up Arrow`             |
-| 清除當前窗格顯示            | `C-k`                | `Cmd-k`                       | `Ctrl-k`                       |
+| 功能描述                               | 操作                     |
+|----------------------------------------|--------------------------|
+| 上下分割窗口                           | `Ctrl + b` 再按 `"`      |
+| 左右分割窗口                           | `Ctrl + b` 再按 `%`      |
+| 切換到其他窗格                         | `Ctrl + b` 再按 `o`      |
+| 關閉當前窗格                           | `Ctrl + b` 再按 `x`      |
+| 在上下分割與左右分割間切換              | `Ctrl + b` 再按 `空格`   |
+| 設定新的前綴鍵 (Prefix)                | `Ctrl + a`               |
+| 重新載入配置文件                       | `prefix + r`             |
+| 切換至下一個窗口                       | `M-l`                    |
+| 切換至上一個窗口                       | `M-h`                    |
+| 新建窗口                               | `M-j`                    |
+| 確認後關閉當前窗口                     | `M-k`                    |
+| 選擇第一個窗口 (0)                     | `` ` ``                  |
+| 在當前窗格下方分割新窗格               | `prefix + -`             |
+| 在當前窗格右側分割新窗格               | `prefix + |`             |
+| 向左調整窗格大小                       | `Shift + Left Arrow`     |
+| 向右調整窗格大小                       | `Shift + Right Arrow`    |
+| 向下調整窗格大小                       | `Shift + Down Arrow`     |
+| 向上調整窗格大小                       | `Shift + Up Arrow`       |
+| 清除當前窗格顯示                       | `Ctrl + k`               |
 
 ## 配置詳解
 
