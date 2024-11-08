@@ -3,6 +3,35 @@
 
 此 `tmux` 配置文件旨在提升 tmux 的使用體驗，包含自定義快捷鍵、狀態列顏色、滑鼠支持、歷史紀錄增量等功能。此配置適合需要高效操作和美觀狀態列顯示的 tmux 用戶。
 
+## 安裝 tmux
+
+在開始配置前，請先確保已安裝 tmux。以下是常見的安裝方法：
+
+### 使用 APT 安裝 (適用於 Ubuntu / Debian)
+
+```bash
+sudo apt update
+sudo apt install tmux
+```
+
+### 使用 YUM 安裝 (適用於 CentOS / RHEL)
+
+```bash
+sudo yum install tmux
+```
+
+### 使用 Homebrew 安裝 (適用於 macOS)
+
+```bash
+brew install tmux
+```
+
+安裝完成後，可以使用以下指令確認 tmux 是否已安裝成功：
+
+```bash
+tmux -V
+```
+
 ## 功能概述
 
 - **快捷鍵設定**：自定義 prefix 鍵為 `Ctrl-a`，並新增多個便捷的窗口和窗格管理快捷鍵。
