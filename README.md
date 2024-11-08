@@ -53,6 +53,8 @@ tmux -V
 | 確認後關閉當前窗格          | `x`                  | `Cmd-x`                       | `Ctrl-x`                       |
 | 在當前窗格下方分割新窗格    | `prefix + -`         | `Cmd -`                       | `Ctrl -`                       |
 | 在當前窗格右側分割新窗格    | `prefix + |`         | `Cmd + |`                     | `Ctrl + |`                     |
+| 水平分割窗口                | `prefix + -`         | `Cmd + -`                     | `Ctrl + -`                     |
+| 垂直分割窗口                | `prefix + |`         | `Cmd + |`                     | `Ctrl + |`                     |
 | 向左調整窗格大小            | `S-Left`             | `Shift + Left Arrow`          | `Shift + Left Arrow`           |
 | 向右調整窗格大小            | `S-Right`            | `Shift + Right Arrow`         | `Shift + Right Arrow`          |
 | 向下調整窗格大小            | `S-Down`             | `Shift + Down Arrow`          | `Shift + Down Arrow`           |
